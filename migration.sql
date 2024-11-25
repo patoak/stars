@@ -5,22 +5,23 @@
 -- pass VARCHAR(50)stars
 -- );
 
-INSERT INTO users
-(username, pass)
-VALUES
-("Cyrus","fag123");
+-- INSERT INTO users
+-- (username, pass)
+-- VALUES
+-- ("Cyrus","fag123");
 
-SELECT * FROM users;
+-- SELECT * FROM users;
 
-CREATE TABLE starinfo (
-	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	user_id INT,
-	image VARCHAR()
-);
+-- CREATE TABLE starinfo (
+-- 	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+-- 	user_id INT,
+-- 	image VARCHAR()
+-- );
 
-INSERT INTO starinfo
-(user_id, image)
-VALUES
-("1","stars_1.png");
+-- INSERT INTO starinfo
+-- (user_id, image)
+-- VALUES
+-- ("1","stars_1.png");
 
-
+SELECT * FROM starinfo;
+ALTER TABLE starinfo AUTO_INCREMENT = 2;
