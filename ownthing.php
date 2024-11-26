@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Table WIP</title>
+    <title>Inserting into a database</title>
 </head>
 <body>
     
@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     } else {
         // Handle case where input fields are empty
-        echo "Both User ID and Image fields must be filled.";
+        echo "<br>Both User ID and Image fields must be filled.";
     }
 }
 
